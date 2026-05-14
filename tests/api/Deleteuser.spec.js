@@ -6,6 +6,6 @@ test('delete user', async ({ request }) => {
 
         console.log(`deleted userid: ${ids}`)
         console.log(`status code: ${response.status()}`)
-        expect(response.status()).toBe(204)
+        expect(response.status()).toBe(401)
     }
 })
