@@ -29,7 +29,7 @@ test('multiple id params', async ({ request }) => {
 
             })
 
-            const data = await response.json()
+            const data = await response.json() 
             console.log(`User ${id}:` , data)
             expect(response.status()).toBe(200)
             expect(data.length).toBeGreaterThan(0)
