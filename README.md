@@ -95,3 +95,36 @@ The project uses Playwright HTML reports to review:
 - Assertions and validations
 - Cross-browser testing support
 - HTML test reporting
+
+## 📌 Project Purpose
+
+This project is a **Playwright automation testing framework developed for learning, practice, and demonstration purposes**.
+
+The framework demonstrates real-world automation testing practices including:
+
+- UI automation testing
+- API testing
+- Page Object Model (POM)
+- Custom fixtures
+- Data-driven testing
+- Positive and negative test scenarios
+- Assertions and validations
+- Cross-browser testing
+- Playwright configuration
+- CI/CD workflow integration
+
+### 🌐 Test Applications & APIs
+
+For demonstration and practice, this project uses publicly available demo/testing applications and APIs rather than a real client production application.
+
+The test scenarios are designed to demonstrate automation framework structure, test design, validations, and reusable automation practices.
+
+### ⚠️ Negative Test Scenarios
+
+Some test cases are intentionally designed with **negative/invalid scenarios** to demonstrate error handling and validation testing.
+
+Therefore, certain test cases may be intentionally expected to fail depending on the behavior or response of the public test API/application being used.
+
+These scenarios are included **for testing and learning demonstration purposes** and should not be interpreted as defects in a real production application.
+
+> **Note:** The test results may vary because the project depends on publicly available demo/testing applications and APIs.
